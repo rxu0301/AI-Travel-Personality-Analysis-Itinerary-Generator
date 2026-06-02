@@ -237,34 +237,4 @@ density = 0.5 + 0.3 × (1 - healing_score)
 1. 지역별 장소 그룹화
 2. 이동 거리 최소화
 3. 카테고리 균형 유지 (관광지, 맛집, 휴식)
-4. 시간대 고려 (오전 관광, 점심, 오후 관광, 저녁)
 ```
-
-## � 주요 파일 설명
-
-### 프론트엔드
-
-| 파일 | 설명 | 라인 수 |
-|------|------|---------|
-| `web/public/index.html` | 메인 HTML 페이지 | ~800 |
-| `web/public/app-simple.js` | 핵심 로직 (상태 관리, 이벤트 처리) | ~2,800 |
-| `web/public/data.js` | 장소 데이터베이스, 성향 유형 정의 | ~1,500 |
-| `web/public/style.css` | 전체 스타일시트 | ~1,200 |
-
-### 백엔드 (Python)
-
-| 파일 | 설명 |
-|------|------|
-| `cmd/server/main.py` | AI 시스템 데모 실행 파일 |
-| `internal/models/*.py` | 데이터 모델 정의 |
-| `internal/preference/analyzer.py` | 성향 분석 알고리즘 |
-| `internal/recommendation/ranker.py` | 추천 랭킹 알고리즘 |
-| `internal/planning/optimizer.py` | 동선 최적화 (TSP) |
-
-### 문서
-
-| 파일 | 설명 |
-|------|------|
-| `ARCHITECTURE.md` | 3개 AI 에이전트 상세 설명 |
-| `SPECIFICATION.md` | 기능 명세서 |
-| `IMPLEMENTATION.md` | 구현 가이드 |
