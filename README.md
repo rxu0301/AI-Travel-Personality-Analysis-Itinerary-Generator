@@ -1,8 +1,8 @@
 # 떠나GO (TteonaGO) ✈️
 
-<img width="400" height="294" alt="떠나고 데모 영상 (30초이하)" src="https://github.com/user-attachments/assets/df95a9e0-b8d1-422e-aadb-ad45d9f7aed7" />
-
 > AI 기반 개인 맞춤형 여행 일정 플래너
+
+<img width="400" height="294" alt="떠나고 데모 영상 (30초이하)" src="https://github.com/user-attachments/assets/df95a9e0-b8d1-422e-aadb-ad45d9f7aed7" />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
