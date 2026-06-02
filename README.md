@@ -1,6 +1,6 @@
 # 떠나GO (TteonaGO) ✈️
 
-![Uploading 떠나고 데모 영상 (30초이하).gif…]()
+![Uploading 떠나고 데모 영상 (30초이하).gif…]
 
 > AI 기반 개인 맞춤형 여행 일정 플래너
 
