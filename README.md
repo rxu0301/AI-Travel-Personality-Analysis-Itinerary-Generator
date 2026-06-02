@@ -1,9 +1,7 @@
 # 여행 성향 분석 모듈
 
 ## 프로그램 화면
-
-
-
+<img width="400" height="294" alt="떠나고 데모 영상 (30초이하)" src="https://github.com/user-attachments/assets/6cb8f85f-a2ee-47a8-a8a0-dd14073cc2ad" />
 
 ## 📋 개요
 
