@@ -268,7 +268,3 @@ density = 0.5 + 0.3 × (1 - healing_score)
 | `ARCHITECTURE.md` | 3개 AI 에이전트 상세 설명 |
 | `SPECIFICATION.md` | 기능 명세서 |
 | `IMPLEMENTATION.md` | 구현 가이드 |
-
-## 📝 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
