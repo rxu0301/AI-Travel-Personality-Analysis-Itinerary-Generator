@@ -240,10 +240,6 @@ density = 0.5 + 0.3 × (1 - healing_score)
 4. 시간대 고려 (오전 관광, 점심, 오후 관광, 저녁)
 ```
 
-## 📝 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
 ## � 주요 파일 설명
 
 ### 프론트엔드
@@ -273,56 +269,6 @@ density = 0.5 + 0.3 × (1 - healing_score)
 | `SPECIFICATION.md` | 기능 명세서 |
 | `IMPLEMENTATION.md` | 구현 가이드 |
 
-## 💡 트러블슈팅
+## 📝 라이선스
 
-### 웹 서버가 시작되지 않을 때
-```bash
-# 포트 3000이 이미 사용 중인 경우
-# server.js의 PORT 변수 수정
-
-# 또는 프로세스 종료 (Windows)
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-```
-
-### Python 모듈 import 오류
-```bash
-# sys.path에 프로젝트 루트 추가 확인
-# cmd/server/main.py에 이미 구현되어 있음
-
-# 또는 PYTHONPATH 설정
-set PYTHONPATH=%CD%  # Windows
-export PYTHONPATH=$(pwd)  # macOS/Linux
-```
-
-### localStorage 데이터 초기화
-```javascript
-// 브라우저 개발자 도구 콘솔에서
-localStorage.removeItem('tteonago_plan');
-localStorage.removeItem('tteonago_library');
-localStorage.removeItem('tteonago_favorites_places');
-localStorage.removeItem('tteonago_favorites_plans');
-```
-
-## �🙏 감사의 말
-
-이 프로젝트는 다음의 이론과 기술을 기반으로 개발되었습니다:
-
-### 학술 이론
-- **Big Five 성격 이론** - Costa & McCrae (1992)
-- **Plog의 여행자 성향 이론** - Stanley Plog (1974)
-- **Crompton의 여행 동기 이론** - John Crompton (1979)
-- **Cohen의 여행자 분류** - Erik Cohen (1972)
-
-### 오픈소스 기여
-- React Team - UI 라이브러리
-- Vite - 빌드 도구
-- Express.js - 웹 서버
-- Python Community - 과학 컴퓨팅 생태계
-
-### 데이터 출처
-- 국내 여행지 정보
-- 공공 데이터 포털
-- 사용자 생성 콘텐츠
-
----
+이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
