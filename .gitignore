@@ -1,6 +1,7 @@
 # 빌드 결과물
 bin/
 dist/
+dist-ssr/
 build/
 *.exe
 *.so
@@ -8,9 +9,15 @@ build/
 
 # IDE 설정
 .DS_Store
-.vscode/
+.vscode/*
+!.vscode/extensions.json
 .idea/
 *.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # 의존성
 vendor/
@@ -23,9 +30,16 @@ __pycache__/
 .env
 .env.local
 .env.*.local
+*.local
 
 # 로그
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 # 임시 파일
 *.tmp
