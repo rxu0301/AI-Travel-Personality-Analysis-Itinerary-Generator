@@ -1,0 +1,43 @@
+# 빌드 결과물
+bin/
+dist/
+build/
+*.exe
+*.so
+*.dylib
+
+# IDE 설정
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# 의존성
+vendor/
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 로그
+*.log
+
+# 임시 파일
+*.tmp
+*.bak
+*-backup.js
+*-broken.js
+*-original.js
+
+# 프로그레스 및 내부 노트
+WEB_PROGRESS.md
+RESEARCH.md
+
+# OS 파일
+Thumbs.db
+.DS_Store
