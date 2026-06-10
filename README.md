@@ -1,4 +1,5 @@
-# 떠나GO (TteonaGO) ✈️
+# 떠나GO 데모 
+(TteonaGO) ✈️
 
 > AI 기반 개인 맞춤형 여행 일정 플래너
 
